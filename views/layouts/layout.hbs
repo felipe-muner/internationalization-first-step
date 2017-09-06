@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body onload="carregaLang();">
+
+    <a id="linkenglish" href="/set-locale/en">ingle</a>
+    <a id="linkport" href="/set-locale/pt-BR">port</a>
+
+    <br>
+    {{{body}}}
+
+
+    <script type="text/javascript">
+
+      function carregaLang(){
+        document.getElementById("linkenglish").href = '/set-locale/en?redirectUrl=' + location.pathname
+        document.getElementById("linkport").href = '/set-locale/pt-BR?redirectUrl=' + location.pathname
+      }
+
+    </script>
+  </body>
+</html>

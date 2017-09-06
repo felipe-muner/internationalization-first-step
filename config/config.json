@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "british@admin",
+    "database": "thebritishschool",
+    "host": "192.168.4.234",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "british@admin",
+    "database": "thebritishschool",
+    "host": "192.168.4.234",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
